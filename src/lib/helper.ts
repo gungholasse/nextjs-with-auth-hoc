@@ -12,12 +12,12 @@ export function openGraph({
   description,
   logo = 'https://lassewang.vercel.app/favicon/LW.png',
 }: OpenGraphType): string {
-  const ogLogo = encodeURIComponent(logo);
-  const ogSiteName = encodeURIComponent(siteName.trim());
-  const ogTemplateTitle = templateTitle
-    ? encodeURIComponent(templateTitle.trim())
-    : undefined;
-  const ogDesc = encodeURIComponent(description.trim());
+  // const ogLogo = encodeURIComponent(logo);
+  // const ogSiteName = encodeURIComponent(siteName.trim());
+  // const ogTemplateTitle = templateTitle
+  //   ? encodeURIComponent(templateTitle.trim())
+  //   : undefined;
+  // const ogDesc = encodeURIComponent(description.trim());
 
   return `https://lassewang.vercel.app/favicon/LW.png`;
 }
