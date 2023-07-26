@@ -63,7 +63,6 @@ export default function RHFSandbox() {
                 id='date'
                 label='Date'
                 validation={{ required: 'Date must be filled' }}
-                // you can customize the default with `dateFormat`
                 placeholder='dd/mm/yyyy'
               />
               <TextArea

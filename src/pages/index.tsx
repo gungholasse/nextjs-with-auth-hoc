@@ -27,7 +27,6 @@ function HomePage() {
 
   return (
     <>
-      {/* <Seo templateTitle='Home' /> */}
       <Seo />
 
       <main>
